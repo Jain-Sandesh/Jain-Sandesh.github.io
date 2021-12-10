@@ -1,0 +1,285 @@
+
+body
+{
+	background-color: black;
+	color: grey;
+	font-family: 'Nunito', sans-serif;
+}
+
+.footer
+{
+   /*position: fixed;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: black;
+   text-align: center;
+   padding: 8px;
+}
+
+.content
+{
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.projectcontent
+{
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.skillcontent
+{
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 140px;	
+	padding-bottom: 140px;
+}
+
+.resumecontent
+{
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 140px;	
+	padding-bottom: 140px;
+}
+
+h1
+{
+	color: white;
+	font-size: 120px;
+}
+
+h2
+{
+	color: white;
+	font-size: 70px;
+}
+
+h3
+{
+	color: white;
+	font-size: 45px;
+}
+
+h4
+{
+	font-size: 35px;
+}
+
+h5
+{
+	color: white;
+	font-size: 35px;
+}
+
+h6
+{
+	font-size: 20px;
+}
+
+
+p
+{
+	font-style: bold;
+	font-size: 25px;
+}
+
+a
+{
+	color: grey;
+}
+
+a,a:visited,a:hover,a:active
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.contactsandesh
+{
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 200px;
+}
+
+input
+{
+	padding: 7px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #8e8e8e;
+    width: 450px;
+    margin-bottom: 20px;
+    color:#F5F5F5;
+    min-height: 100px;
+}
+
+textarea
+{
+	padding: 7px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #8e8e8e;
+    width: 450px;
+    margin-bottom: 20px;
+    color:#F5F5F5;
+    min-height: 100px;
+}
+
+button
+{
+	text-align: center;
+	color: white;
+	background-color: grey;
+	border-width: 5px;
+	border-radius: 2px;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	left: 283px;
+}
+
+#pimg
+{
+	height: 400px;
+	width: 400px;
+	border-width: 2px;
+}
+
+.card
+{
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+  background-color: black;
+  border: 4px solid grey;
+  padding: 30px;
+  max-width: 500px;
+  height: 340px;
+  min-height: 340px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.80s;
+  
+ 
+ /* font-family: arial; */
+}
+
+.card:hover
+{
+	border-color: blue;
+	min-height: 500px;
+	
+}
+
+.button
+{
+	
+  /*	padding: 8px;
+  	color: white;
+  	background-color: black;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 30%;
+  	font-size: 18px; */
+  
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px; */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  border: 3px solid grey;
+}
+
+.button1:hover {
+  background-color: #696969;
+  color: white;
+}
+
+.education
+{
+	background-color: white;
+	/*height: 100px;*/
+	width: 80%;
+	padding: 50px;
+	margin-top: 2px;
+	margin: auto;
+	margin-bottom: 15%;
+	min-height: 60vh;
+	color: black;
+}
+
+.skill
+{
+	background-color: white;
+	/*height: 100px;*/
+	width: 80%;
+	padding: 10px;
+	margin-top: 2px;
+	margin: auto;
+	margin-bottom: 6%;
+	min-height: 60vh;
+	color: black;
+}
+
+.btn
+{
+	position: sticky;
+  height: 100px;
+  width: 120px;
+  border-radius: 50%;
+  
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px; */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+  border: 3px solid grey;
+}
+
+.btn1:hover {
+  background-color: #696969;
+  color: white;
+}
+
+ul
+{
+	color: grey;
+	font-size: 22px;
+	text-align: left;
+}
